@@ -1,0 +1,9 @@
+{
+	"name": "Covid-25-Analysis",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01d27e85-98dc-4d03-83c6-1645ae473781",
+		"tenantId": "a837db11-0fef-410a-868c-4236e00aba01"
+	}
+}
