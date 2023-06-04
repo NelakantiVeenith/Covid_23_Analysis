@@ -14,9 +14,6 @@
 		"parameters": {
 			"sourceRelativeURL": {
 				"type": "string"
-			},
-			"sourceBaseURL": {
-				"type": "string"
 			}
 		},
 		"annotations": [],
