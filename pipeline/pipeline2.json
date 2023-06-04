@@ -170,15 +170,15 @@
 				}
 			}
 		],
-		"variables": {
-			"sourceRelativeURL": {
-				"type": "String"
-			},
-			"baseRelativeURL": {
-				"type": "String"
-			},
+		"parameters": {
 			"fileName": {
-				"type": "String"
+				"type": "string"
+			},
+			"sourceBaseURL": {
+				"type": "string"
+			},
+			"sourceRelativeURL": {
+				"type": "string"
 			}
 		},
 		"annotations": []
