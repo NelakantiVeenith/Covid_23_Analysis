@@ -8,12 +8,6 @@
 		"parameters": {
 			"fileName": {
 				"type": "string"
-			},
-			"sourceBaseURL": {
-				"type": "string"
-			},
-			"relativeBaseURL": {
-				"type": "string"
 			}
 		},
 		"annotations": [],
