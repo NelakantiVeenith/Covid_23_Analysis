@@ -58,7 +58,7 @@
 							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "baseRelativeURL",
+								"variableName": "sourceBaseURL",
 								"value": {
 									"value": "@item().sourceBaseURL",
 									"type": "Expression"
@@ -160,6 +160,14 @@
 									"parameters": {
 										"fileName": {
 											"value": "@variables('fileName')",
+											"type": "Expression"
+										},
+										"sourceBaseURL": {
+											"value": "@variables('sourceBaseURL')",
+											"type": "Expression"
+										},
+										"relativeBaseURL": {
+											"value": "@variables('sourceRelativeURL')",
 											"type": "Expression"
 										}
 									}
