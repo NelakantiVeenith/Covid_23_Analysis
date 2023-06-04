@@ -3,16 +3,13 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",
-			"type": "LinkedServiceReference",
-			"parameters": {
-				"sourceBaseURL": {
-					"value": "@dataset().sourceBaseURL",
-					"type": "Expression"
-				}
-			}
+			"type": "LinkedServiceReference"
 		},
 		"parameters": {
 			"sourceRelativeURL": {
+				"type": "string"
+			},
+			"sourceBaseURL": {
 				"type": "string"
 			}
 		},
