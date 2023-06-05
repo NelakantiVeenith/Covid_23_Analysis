@@ -13,7 +13,7 @@
 				"fileName": "population_by_age.tsv.gz",
 				"container": "covid-23-blob-storage"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
 			"compressionCodec": "gzip",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
