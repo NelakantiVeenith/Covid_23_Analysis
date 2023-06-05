@@ -669,6 +669,7 @@
 						"container": "covid-23-blob-storage"
 					},
 					"columnDelimiter": ",",
+					"compressionCodec": "gzip",
 					"escapeChar": "\\",
 					"firstRowAsHeader": true,
 					"quoteChar": "\""
