@@ -50,6 +50,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -76,7 +77,7 @@
 					},
 					"ifTrueActivities": [
 						{
-							"name": "cp_blob_to_data_lake",
+							"name": "Copy data1",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
